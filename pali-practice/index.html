@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pāli Practice - Learn Pāli Grammar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#5c4a2a">
+    <meta name="description" content="Free app for learning Pāli language grammar with verb conjugations and noun declensions">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://dhammabytes.org/pali-practice/">
+    <meta property="og:title" content="Pāli Practice">
+    <meta property="og:description" content="Free app for learning Pāli language grammar">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dhammabytes.org/pali-practice/">
+    <link rel="stylesheet" href="../css/common.css">
+    <style>
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            margin: 1rem 0 0.5rem 0;
+        }
+        h2 {
+            font-size: 1.3rem;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 24px;
+        }
+        .downloads {
+            margin: 1.5rem 0;
+        }
+        .downloads p {
+            margin: 0.5rem 0;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 0.75rem 0;
+        }
+        .store-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            text-decoration: none;
+            padding: 0.25rem 0.5rem;
+            background: #f5f0e8;
+            border-radius: 4px;
+        }
+        .store-link:hover {
+            background: #ebe4d8;
+        }
+        .icon {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            fill: currentColor;
+        }
+        .screenshot {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        .screenshot-placeholder {
+            display: inline-block;
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            background: #f5f0e8;
+            border: 2px dashed #d4c8b8;
+            border-radius: 8px;
+            line-height: 300px;
+            color: #7a6b5a;
+        }
+        .sutta-quote {
+            margin: 1.5rem 0;
+            padding: 1rem 1.5rem;
+            background: #f5f0e8;
+            border-left: 3px solid #d4c8b8;
+            font-style: italic;
+        }
+        @media (prefers-color-scheme: dark) {
+            .store-link {
+                background: #2a2520;
+            }
+            .store-link:hover {
+                background: #3a332a;
+            }
+            .screenshot-placeholder {
+                background: #2a2520;
+                border-color: #3a332a;
+                color: #a89878;
+            }
+            .sutta-quote {
+                background: #2a2520;
+                border-color: #3a332a;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../img/palipractice.svg" alt="Pāli Practice icon" class="app-icon">
+        <h1>Pāli Practice</h1>
+    </header>
+
+    <main>
+        <p>Free app for learning Pāli language grammar, with a focus on verb conjugations and noun declensions. Works fully offline and is available for computers, phones, and tablets.</p>
+
+        <div class="downloads">
+            <p>Install it from the stores:</p>
+            <div class="links">
+                <a href="#" class="store-link">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35m13.81-5.38L6.05 21.34l8.49-8.49 2.27 2.27m3.35-4.31c.34.27.56.69.56 1.19s-.22.92-.56 1.19l-2.29 1.32-2.5-2.5 2.5-2.5 2.29 1.3M6.05 2.66l10.76 6.22-2.27 2.27-8.49-8.49z"/></svg>
+                    Google Play
+                </a>
+                <a href="#" class="store-link">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                    App Store
+                </a>
+                <a href="#" class="store-link">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                    Mac App Store
+                </a>
+            </div>
+
+            <p>Or download it directly:</p>
+            <div class="links">
+                <a href="#" class="store-link">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8"/><rect x="13" y="3" width="8" height="8"/><rect x="3" y="13" width="8" height="8"/><rect x="13" y="13" width="8" height="8"/></svg>
+                    Windows
+                </a>
+                <a href="#" class="store-link">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                    Mac
+                </a>
+                <a href="#" class="store-link">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 19h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+                    Linux
+                </a>
+            </div>
+        </div>
+
+        <div class="screenshot">
+            <div class="screenshot-placeholder">Screenshots coming soon</div>
+        </div>
+
+        <p>The app is completely private: no account is required and no data is collected. Everything stays on your device. See details in the <a href="privacy-policy/">Privacy Policy</a>.</p>
+
+        <p>Source code is available on <a href="https://github.com/DhammaBytes/PaliPractice" target="_blank" rel="noopener">GitHub</a> under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> license.</p>
+
+        <h2>About the Icon</h2>
+        <p>The app's icon is the quail from <a href="https://www.dhammatalks.org/suttas/SN/SN47_6.html" target="_blank" rel="noopener">SN 47:6, the Sakuṇagghi Sutta</a> ("The Hawk"), hiding behind clumps of earth in its ancestral territory—a newly plowed field with the soil turned up:</p>
+
+        <blockquote class="sutta-quote">
+            "Wander, monks, in what is your proper range, your own ancestral territory. In one who wanders in what is his proper range, his own ancestral territory, Māra gains no opening, Māra gains no foothold. And what, for a monk, is his proper range, his own ancestral territory? The four establishings of mindfulness."
+        </blockquote>
+
+        <p>Icon illustration and app design by <a href="https://www.instagram.com/irmirx/" target="_blank" rel="noopener">Irina Mir</a>.</p>
+    </main>
+
+    <footer>
+        <p><a href="/">DhammaBytes</a></p>
+    </footer>
+</body>
+</html>
